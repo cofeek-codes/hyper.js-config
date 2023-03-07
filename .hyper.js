@@ -11,7 +11,7 @@ module.exports = {
 		fontSize: 16,
 		// font family with optional fallbacks
 		// fontFamily: 'Meslo LGS NF',
-		fontFamily: 'Hack, MesloLGM Nerd Font',
+		fontFamily: 'Fira Code, MesloLGM Nerd Font',
 		// opacity: {
 		// 	focus: 0.9,
 		// 	blur: 0.5,
