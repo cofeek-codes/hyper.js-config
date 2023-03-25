@@ -8,7 +8,7 @@ module.exports = {
 		// or `'canary'` for less polished but more frequent updates
 		updateChannel: 'stable',
 		// default font size in pixels for all tabs
-		fontSize: 16,
+		fontSize: 18,
 		// font family with optional fallbacks
 		// fontFamily: 'Meslo LGS NF',
 		fontFamily: 'Fira Code, MesloLGM Nerd Font',
@@ -38,7 +38,7 @@ module.exports = {
 		foregroundColor: '#fff',
 		// terminal background color
 		// opacity is only supported on macOS
-		backgroundColor: 'rgba(0, 0, 0, 0.8)',
+		backgroundColor: 'rgba(26, 24, 37, 0.75)',
 		// terminal selection color
 		selectionColor: 'rgba(248,28,229,0.3)',
 		// border color (window, tabs)
@@ -62,24 +62,22 @@ module.exports = {
 		// including the 6 x 6 color cubes and the grayscale map, just provide
 		// an array here instead of a color map object
 		colors: {
-			black: '#000000',
-			red: '#C51E14',
-			green: '#1DC121',
-			yellow: '#C7C329',
-			blue: '#0A2FC4',
-			magenta: '#C839C5',
-			cyan: '#20C5C6',
-			white: '#C7C7C7',
-			lightBlack: '#686868',
-			lightRed: '#FD6F6B',
-			lightGreen: '#67F86F',
-			lightYellow: '#FFFA72',
-			lightBlue: '#6A76FB',
-			lightMagenta: '#FD7CFC',
-			lightCyan: '#68FDFE',
-			lightWhite: '#FFFFFF',
-			limeGreen: '#32CD32',
-			lightCoral: '#F08080',
+			black: '#26233a',
+			red: '#eb6f92',
+			green: '#31748f',
+			yellow: '#f6c177',
+			blue: '#9ccfd8',
+			magenta: '#c4a7e7',
+			cyan: '#ea9a97',
+			white: '#e0def4',
+			lightBlack: '#908caa',
+			lightRed: '#eb6f92',
+			lightGreen: '#31748f',
+			lightYellow: '#f6c177',
+			lightBlue: '#9ccfd8',
+			lightMagenta: '#c4a7e7',
+			lightCyan: '#ea9a97',
+			lightWhite: '#e0def4',
 		},
 		// the shell to run when spawning a new session (i.e. /usr/local/bin/fish)
 		// if left empty, your system's login shell will be used by default
@@ -144,7 +142,7 @@ module.exports = {
 	//   `hyperpower`
 	//   `@company/project`
 	//   `project#1.0.1`
-	plugins: ['hyper-opacity', "hyper-tabs-enhanced"],
+	plugins: ['hyper-opacity', 'hyper-tabs-enhanced'],
 	// in development, you can create a directory under
 	// `~/.hyper_plugins/local/` and include it here
 	// to load it and avoid it being `npm install`ed
