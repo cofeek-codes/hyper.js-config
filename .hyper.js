@@ -12,11 +12,11 @@ module.exports = {
 		// font family with optional fallbacks
 		// fontFamily: 'Meslo LGS NF',
 		fontFamily: 'Fira Code, MesloLGM Nerd Font',
-		// opacity: {
-		// 	focus: 0.9,
-		// 	blur: 0.5,
-		// },
-		opacity: 0.85,
+		 opacity: {
+		 	focus: 0.5,
+		 	blur: 1.0,
+		 },
+		//opacity: 0.85,
 		// default font weight: 'normal' or 'bold'
 		fontWeight: 'normal',
 		// font weight for bold characters: 'normal' or 'bold'
@@ -38,7 +38,7 @@ module.exports = {
 		foregroundColor: '#fff',
 		// terminal background color
 		// opacity is only supported on macOS
-		backgroundColor: 'rgba(26, 24, 37, 0.75)',
+		backgroundColor: 'rgba(26, 24, 37, 0.81)',
 		// terminal selection color
 		selectionColor: 'rgba(248,28,229,0.3)',
 		// border color (window, tabs)
